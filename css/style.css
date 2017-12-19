@@ -1,6 +1,11 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
+
+html{
   font-family: 'Open Sans', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
+}
+
+body {
   height: auto;
 }
 
@@ -21,10 +26,12 @@ a:hover {
 }
 
 .headerimage {
-background-image: url("../img/fotoheader.jpg");
-clear: both;
-height: 100%;
-width: auto;
+  background-image: url("../img/fotoheader.jpg");
+  position: relative;
+  clear: both;
+  height: 100%;
+  width: auto;
+  z-index: 999;
 }
 
 .topnav {
@@ -114,6 +121,7 @@ li {
 }
 
 li a {
+  font-weight: 700;
     display: block;
     color: white;
     text-align: center;
@@ -123,6 +131,50 @@ li a {
 
 li a:hover {
   text-decoration: underline #ee7f00;
+}
+
+#search-nav{
+  /*-webkit-clip-path: polygon(79% 18%, 79% 13%, 98% 10%, 98% 20%);
+  clip-path: polygon(79% 18%, 79% 13%, 98% 10%, 98% 20%);*/
+}
+
+#search-box-nav{
+  position: relative;
+  text-decoration: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: #E57B03;
+  font-size: 15px;
+  font-weight: 100;
+  color: #FFFFFF;
+  padding: 2% 3.5% 2% 2%;
+  outline: none !important;
+  margin-top: 6%;
+  margin-left: 5%;
+}
+
+#search-box-nav::placeholder{
+  color: #f5f5f5;
+}
+
+#search-box-nav::before{
+  -webkit-transform: skewY(-4deg);
+  transform: skewY(-4deg);
+  padding: 2% 2% 2% 2%;
+  background: #E57B03;
+  outline: none !important;
+  top: -17px;
+  content: "";
+}
+
+#search-box-nav::after{
+  -webkit-transform: skewY(4deg);
+  transform: skewY(4deg);
+  padding: 2% 2% 2% 2%;
+  background: #E57B03;
+  outline: none !important;
+  bottom: -17px;
+  content: "";
 }
 
 .logo {
@@ -142,4 +194,87 @@ li a:hover {
 
 .imgheader {
   width: 100%;
+}
+
+#footer-wrap{
+  width: 100%;
+  background-color: #808080;
+}
+
+/* Dit was een poging voor footer, zie beneden voor beter joe */
+
+/*[class*='footer-']{
+  float: left;
+  margin-top: .5em;
+  margin: 0 .5% .5em .5%;
+  border: 1px solid #fff;
+  width: 100%;
+}
+
+@media only screen and (min-width 600px){
+  .footer-col-m{width: 100%;}
+}
+
+@media only screen and (min-width 768px){
+  .footer-col-l{width: 25%;}
+}*/
+
+h3{
+  margin-bottom: 15px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+#footer-wrap{
+  position: relative;
+  bottom: 0;
+  min-height: 350px;
+  background: #808080;
+}
+
+[class*="f-col-"] {
+    color: #ffffff;
+    background-color: #808080;
+    float: left;
+    padding: 2% 5% 5% 3.33%;
+}
+
+[class*="f-col-"] a{
+  color: #fff;
+}
+
+/* For any screen that's not 600px or more wide */
+[class*="f-col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For any screen wider than 600px (mostly tablets) */
+    .f-col-m-1 {width: 8.33%;}    /* (100/12)*1 */
+    .f-col-m-2 {width: 16.66%;}   /* (100/12)*2 */
+    .f-col-m-3 {width: 25%;}      /* (100/12)*3 */
+    .f-col-m-4 {width: 33.33%;}   /* (100/12)*4 */
+    .f-col-m-5 {width: 41.66%;}   /* (100/12)*5 */
+    .f-col-m-6 {width: 49%;}      /* (100/12)*6 */
+    .f-col-m-7 {width: 58.33%;}   /* (100/12)*7 */
+    .f-col-m-8 {width: 66.66%;}   /* (100/12)*8 */
+    .f-col-m-9 {width: 75%;}      /* (100/12)*9 */
+    .f-col-m-10 {width: 83.33%;}  /* (100/12)*10 */
+    .f-col-m-11 {width: 91.66%;}  /* (100/12)*11 */
+    .f-col-m-12 {width: 100%;}    /* (100/12)*12 */
+}
+
+@media only screen and (min-width: 768px) {
+    /* For any screen wider than 768px (eg. laptops, desktops) */
+    .f-col-1 {width: 8.33%;}      /* (100/12)*1 */
+    .f-col-2 {width: 16.66%;}     /* (100/12)*2 */
+    .f-col-3 {width: 25%;}        /* (100/12)*3 */
+    .f-col-4 {width: 32.33%;}     /* (100/12)*4 */
+    .f-col-5 {width: 41.66%;}     /* (100/12)*5 */
+    .f-col-6 {width: 50%;}        /* (100/12)*6 */
+    .f-col-7 {width: 58.33%;}     /* (100/12)*7 */
+    .f-col-8 {width: 66.66%;}     /* (100/12)*8 */
+    .f-col-9 {width: 75%;}        /* (100/12)*9 */
+    .f-col-10 {width: 83.33%;}    /* (100/12)*10 */
+    .f-col-11 {width: 91.66%;}    /* (100/12)*11 */
+    .f-col-12 {width: 100%;}      /* (100/12)*12 */
 }
