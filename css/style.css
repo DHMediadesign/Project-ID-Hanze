@@ -16,13 +16,16 @@ body {
 }
 
 a {
-  transition-duration:0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
   text-decoration: underline transparent;
+  -webkit-text-decoration: underline transparent;
   color: black;
 }
 
 a:hover {
   text-decoration: underline #ee7f00;
+  -webkit-text-decoration: underline #ee7f00;
 }
 
 .headerimage {
@@ -52,11 +55,13 @@ a:hover {
   text-decoration: none;
   font-size: 17px;
   transition-duration:0.2s;
+  -webkit-transition-duration: 0.2s;
   text-decoration: underline transparent;
 }
 
 .topnav a:hover {
   text-decoration: underline #ee7f00;
+  -webkit-text-decoration: underline #ee7f00;
   color: white;
 }
 
@@ -131,6 +136,7 @@ li a {
 
 li a:hover {
   text-decoration: underline #ee7f00;
+  -webkit-text-decoration: underline #ee7f00;
 }
 
 #search-nav{
