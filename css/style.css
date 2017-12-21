@@ -242,6 +242,7 @@ h3{
 }
 
 #footer-wrap{
+  position: relative;
   display: table;
   bottom: 0;
   min-height: 350px;
