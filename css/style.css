@@ -30,6 +30,7 @@ a:hover {
 
 .headerimage {
   background-image: url("../img/fotoheader.jpg");
+  background-repeat: none;
   position: relative;
   overflow: auto;
   height: 100%;
@@ -37,7 +38,7 @@ a:hover {
 }
 
 .imgheader {
-  width: 100%;
+  width: 100vw;
 }
 
 .topnav {
