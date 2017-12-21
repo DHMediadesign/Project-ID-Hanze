@@ -31,10 +31,14 @@ a:hover {
 .headerimage {
   background-image: url("../img/fotoheader.jpg");
   position: relative;
-  clear: both;
+  overflow: hidden;
   height: 100%;
-  width: auto;
-  z-index: 999;
+  width: 100vw;
+  margin-top: -20px;
+}
+
+.imgheader {
+  width: 100%;
 }
 
 .topnav {
@@ -198,6 +202,7 @@ li a:hover {
 }
 
 .headerimage{
+
   height: 50vh;
   margin-top: -50px;
 }
