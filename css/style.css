@@ -242,7 +242,7 @@ h3{
 }
 
 #footer-wrap{
-  position: relative;
+  display: table;
   bottom: 0;
   min-height: 350px;
   background: #999999;
@@ -262,6 +262,7 @@ h3{
 /* For any screen that's not 600px or more wide */
 [class*="f-col-"] {
     width: 92%;
+    display: table-cell;
 }
 
 @media only screen and (min-width: 600px) {
@@ -277,7 +278,7 @@ h3{
     .f-col-m-9 {width: 75%;}      /* (100/12)*9 */
     .f-col-m-10 {width: 83.33%;}  /* (100/12)*10 */
     .f-col-m-11 {width: 91.66%;}  /* (100/12)*11 */
-    .f-col-m-12 {width: 100%;}    /* (100/12)*12 */
+    .f-col-m-12 {width: 92%;     padding: 4% 4% 5% 4%;}    /* (100/12)*12 */
 }
 
 @media only screen and (min-width: 768px) {
