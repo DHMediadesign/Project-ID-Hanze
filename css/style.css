@@ -160,7 +160,7 @@ li a:hover {
   margin-right: 10%;
 }
 
-#search-box-nav::placeholder{
+#search-box-nav::placeholder, #search-box-nav::-webkit-input-placeholder{
   color: #F5F5F5;
   padding-bottom: 15px;
   border-bottom: 1px solid #FCA038;
@@ -239,14 +239,14 @@ h3{
   position: relative;
   bottom: 0;
   min-height: 350px;
-  background: #808080;
+  background: #999999;
 }
 
 [class*="f-col-"] {
     color: #ffffff;
-    background-color: #808080;
+    background-color: #999999;
     float: left;
-    padding: 2% 5% 5% 3.33%;
+    padding: 4% 4% 5% 4%;
 }
 
 [class*="f-col-"] a{
@@ -255,7 +255,7 @@ h3{
 
 /* For any screen that's not 600px or more wide */
 [class*="f-col-"] {
-    width: 100%;
+    width: 92%;
 }
 
 @media only screen and (min-width: 600px) {
