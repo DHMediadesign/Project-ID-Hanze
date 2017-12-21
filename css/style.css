@@ -290,7 +290,11 @@ h3{
     .f-col-12 {width: 100%;}      /* (100/12)*12 */
 }
 
-
+#login-form {
+  background-color: #E57B03;
+  width: 20%;
+  align-items: center;
+}
 /*.login-input{
   position: relative;
   text-decoration: none;
