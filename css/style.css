@@ -289,3 +289,46 @@ h3{
     .f-col-11 {width: 91.66%;}    /* (100/12)*11 */
     .f-col-12 {width: 100%;}      /* (100/12)*12 */
 }
+
+
+.login-input{
+  position: relative;
+  text-decoration: none;
+  border: none;
+  border-bottom: 1px solid #FFF;
+  background: #E57B03;
+  font-size: 15px;
+  font-weight: 100;
+  color: #FFFFFF;
+  padding: 3% 5% 3% 2%;
+  outline: none !important;
+  margin-top: 6%;
+  float: right;
+  margin-right: 10%;
+}
+
+.login-input::placeholder{
+  color: #F5F5F5;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #FCA038;
+}
+
+.login-input::before{
+  -webkit-transform: skewY(-4deg);
+  transform: skewY(-4deg);
+  padding: 2% 2% 2% 2%;
+  background: #E57B03;
+  outline: none !important;
+  top: -17px;
+  content: "";
+}
+
+.login-input::after{
+  -webkit-transform: skewY(4deg);
+  transform: skewY(4deg);
+  padding: 2% 2% 2% 2%;
+  background: #E57B03;
+  outline: none !important;
+  bottom: -17px;
+  content: "";
+}
