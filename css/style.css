@@ -198,7 +198,8 @@ li a:hover {
 }
 
 .headerimage{
-  height: 10vh;
+  height: 50vh;
+  margin-top: -50px;
 }
 
 .imgheader {
