@@ -30,11 +30,11 @@ a:hover {
 
 .headerimage {
   background-image: url("../img/fotoheader.jpg");
-  position: relative;
+ /* position: relative;*/
   overflow: hidden;
   height: 100%;
   width: 100vw;
-  margin-top: -20px;
+  margin-top: -200px;
 }
 
 .imgheader {
