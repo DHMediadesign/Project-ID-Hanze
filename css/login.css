@@ -3,13 +3,13 @@
 html{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+   background-image: url(../img/loginbg.jpg);
+  background-repeat: no-repeat;
+
 }
 
 body {
   height: auto;
-  background-image: url(../img/loginbg.jpg);
-  background-repeat: no-repeat;
-  background-size: 100vw;
 }
 
 *{
@@ -18,10 +18,29 @@ body {
   list-style-type: none;
 }
 
+.logo {
+  margin-top: 5%;
+  width: 8%;
+  float: left;
+  margin-left: 3%;
+}
+
+.logohanze {
+  width: 100vw;
+}
+
+h1 {
+  color: #fff;
+  
+  float: left;
+  margin-top: 6%;
+  margin-left: 2%;
+}
+
 #login-form {
   position: fixed;
   top: 50%;
-  left: 50%;
+  left: 45%
 }
 
 
@@ -31,7 +50,7 @@ body {
   border: none;
   border-bottom: 1px solid #FFF;
   background: #E57B03;
-  font-size: 15px;
+  font-size: 24px;
   font-weight: 100;
   color: #FFFFFF;
   padding: 3% 5% 3% 2%;
@@ -47,7 +66,23 @@ body {
   border-bottom: 1px solid #FCA038;
 }
 
-.login-input::before{
+input[type=submit] {
+  position: relative;
+  text-decoration: none;
+  border: none;
+  border-bottom: 1px solid #FFF;
+  background: #E57B03;
+  font-size: 24px;
+  font-weight: 100;
+  color: #FFFFFF;
+  padding: 3% 5% 3% 2%;
+  outline: none !important;
+  margin-top: 6%;
+  float: right;
+  margin-right: 10%; 
+}
+
+/*.login-input::before{
   -webkit-transform: skewY(-4deg);
   transform: skewY(-4deg);
   padding: 2% 2% 2% 2%;
@@ -55,9 +90,9 @@ body {
   outline: none !important;
   top: -17px;
   content: "";
-}
+}*/
 
-.login-input::after{
+/*.login-input::after{
   -webkit-transform: skewY(4deg);
   transform: skewY(4deg);
   padding: 2% 2% 2% 2%;
@@ -65,4 +100,5 @@ body {
   outline: none !important;
   bottom: -17px;
   content: "";
-}
+}*/
+
