@@ -5,6 +5,7 @@ html{
   font-weight: 300;
    background-image: url(../img/loginbg.jpg);
   background-repeat: no-repeat;
+  background-size: 120%; 
 
 }
 
@@ -76,10 +77,10 @@ input[type=submit] {
   font-weight: 100;
   color: #FFFFFF;
   padding: 3% 5% 3% 2%;
-  outline: none !important;
   margin-top: 6%;
   float: right;
   margin-right: 10%; 
+  box-shadow: #fff;
 }
 
 /*.login-input::before{
