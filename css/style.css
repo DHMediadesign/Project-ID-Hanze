@@ -208,16 +208,37 @@ li a:hover {
   width: 100%;
 }
 
+/* major buttons */
 
 #majorbuttons{
   width: 100%;
+  padding-right: 0px;
 }
 
 .majors{
-  width: 33%;
-  height: 200px;
+  position: relative;
+  width: 33.33%;
   float:left;
+  background-color: #666;
+  height: auto;
 }
+
+.majors :not(img){
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  top: 45%;
+  color: #fff;
+}
+
+.majorbimg{
+  width: 100%;
+  overflow: auto;
+  opacity: 0.4;
+}
+
+/* Footer */
 
 #footer-wrap{
   bottom: 0;
