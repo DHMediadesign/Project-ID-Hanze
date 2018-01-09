@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
+/*
+   Importeer FontAwesome voor de rating van de studie
+   Het is soort van onderdeel van bootstrap maar dat kan wel toch
+*/
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 
 html{
   font-family: 'Open Sans', sans-serif;
@@ -211,6 +216,64 @@ li a:hover {
   width: 100%;
 }
 
+<<<<<<< HEAD
+p#rating-text{
+  padding-bottom: 1.5%;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+/* Style voor star rating met text */
+#rating-wrap{
+  background: #eeeeee;
+  text-align: center;
+  padding: 2.5% 5% 2.5% 5%;
+}
+
+/* Wrap voor de sterren zelf, zonder text */
+.rating {
+  border: none;
+  width: auto;
+  display: inline-block;
+  padding: 1%;
+}
+
+/* Gewone ster */
+.rating > input { display: none; }
+.rating > label:before {
+  margin: 5px;
+  font-size: 2em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+/* Halve ster */
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+/* Kleur voor standaard ster */
+.rating > label {
+  color: #a5a5a5;
+ float: right;
+}
+
+/* Style voor hover en click op de star rating */
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label{
+  color: #FFD700;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label{
+  color: #FFED85;
+}
+
+=======
 /* major buttons */
 
 #majorbuttons{
@@ -241,6 +304,7 @@ li a:hover {
 }
 
 /* Footer */
+>>>>>>> 9956285afb462470cf97948348b6f87f0d9a44de
 
 #footer-wrap{
   bottom: 0;
