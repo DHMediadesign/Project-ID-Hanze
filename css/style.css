@@ -187,6 +187,7 @@ li a:hover {
   width: 100%;
 }
 
+<<<<<<< HEAD
 p#rating-text{
   padding-bottom: 1.5%;
   border-bottom: 1px solid #a5a5a5;
@@ -243,6 +244,38 @@ p#rating-text{
   color: #FFED85;
 }
 
+=======
+/* major buttons */
+
+#majorbuttons{
+  width: 100%;
+  padding-right: 0px;
+}
+
+.majors{
+  position: relative;
+  width: 33.33%;
+  float:left;
+  background-color: #666;
+  height: auto;
+}
+
+.majors :not(img){
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  top: 45%;
+  color: #fff;
+}
+
+.majorbimg{
+  width: 100%;
+  opacity: 0.4;
+}
+
+/* Footer */
+>>>>>>> 9956285afb462470cf97948348b6f87f0d9a44de
 
 #footer-wrap{
   bottom: 0;
@@ -266,7 +299,7 @@ h3{
 
 .leukfeature {
   text-align: center;
-  margin-top: 22%;
+  margin-top: 22%; 
 }
 
 [class*="f-col-"] {
