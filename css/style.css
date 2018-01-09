@@ -84,6 +84,9 @@ a:hover {
     float: right;
     display: block;
   }
+  .majors {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
