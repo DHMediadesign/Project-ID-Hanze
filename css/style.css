@@ -3,7 +3,7 @@
    Importeer FontAwesome voor de rating van de studie
    Het is soort van onderdeel van bootstrap maar dat kan wel toch
 */
-@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@import url(netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 
 html{
   font-family: 'Open Sans', sans-serif;
@@ -244,11 +244,13 @@ p#rating-text{
   color: #FFED85;
 }
 
-=======
+
 .welkom {
-margin-right-right:20%;
-margin-left:20%;
- }
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  margin-right:20%;
+  margin-left:20%;
+}
 
 /* major buttons */
 
@@ -304,7 +306,7 @@ h3{
 
 .leukfeature {
   text-align: center;
-  margin-top: 22%; 
+  margin-top: 22%;
 }
 
 [class*="f-col-"] {
