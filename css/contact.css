@@ -209,7 +209,9 @@ li a:hover {
 }
 
 #map{ 
-  width: 25%;
+  width: 30%;
+  height: 40vh;
   border: none;
   float: right;
+  margin: 5%;
  }
