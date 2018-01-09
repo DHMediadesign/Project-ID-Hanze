@@ -207,3 +207,9 @@ li a:hover {
 .imgheader {
   width: 100%;
 }
+
+.maps { 
+  width: 33,33%;
+  height: 33,33%;
+  position: absolute;
+ }
