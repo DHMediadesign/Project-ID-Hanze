@@ -246,7 +246,9 @@ p#rating-text{
 }
 
 =======
-.welkom {
+
+.openingstekst {
+  width: 80%;
 margin-right:20%;
 margin-left:20%;
  }
