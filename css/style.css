@@ -260,6 +260,11 @@ h3{
   background: #999999;
 }
 
+.leukfeature {
+  text-align: center;
+  margin-top: 20%; 
+}
+
 [class*="f-col-"] {
     color: #ffffff;
     background-color: #999999;
