@@ -83,35 +83,6 @@ a:hover {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
-  .topnav a {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .majors {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: center;
-  }
-  .topnav {
-    margin-right: 0%;
-    width: 100%;
-  }
-}
-
 .sitemenu {
   position: relative;
   z-index: 1;
@@ -383,4 +354,36 @@ h3{
     .f-col-10 {width: 83.33%;}    /* (100/12)*10 */
     .f-col-11 {width: 91.66%;}    /* (100/12)*11 */
     .f-col-12 {width: 100%;}      /* (100/12)*12 */
+}
+
+@media screen and (max-width: 768px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .majors {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .topnav {
+    margin-right: 0%;
+    width: 100%;
+  }
+  .majors{
+    width: 100%
+  }
 }
