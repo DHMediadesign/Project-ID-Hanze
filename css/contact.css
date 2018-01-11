@@ -155,9 +155,6 @@ li a:hover {
   color: #FFFFFF;
   padding: 3% 5% 3% 2%;
   outline: none !important;
-  /*margin-top: 6%;
-  float: right;
-  margin-right: 10%;*/
 }
 
 #search-box-nav::placeholder, #search-box-nav::-webkit-input-placeholder{
