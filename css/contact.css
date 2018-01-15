@@ -30,14 +30,9 @@ a:hover {
 
 .headerimage {
   background-image: url("../img/fotoheader.jpg");
-  background-repeat: none;
+  background-repeat: none !important;
   position: relative;
   overflow: auto;
-  height: 100%;
-  width: 100vw;
-}
-
-.imgheader {
   width: 100vw;
 }
 
@@ -69,8 +64,9 @@ a:hover {
   color: white;
 }
 
-a.active {
+li.active a{
   text-decoration: underline #EE7F00;
+  -webkit-text-decoration: underline #EE7F00;
 }
 
 .topnav .icon {
@@ -204,10 +200,56 @@ li a:hover {
   width: 100%;
 }
 
-#map{ 
-  width: 30%;
-  height: 40vh;
-  border: none;
+/* EINDE HEADER CSS */
+
+@media screen and (max-width: 668px){
+
+.contactinformatie{
+  width: 100vw;
+  margin-bottom: 5%;
+}
+
+#contactfoto{
   float: right;
-  margin: 5%;
+  padding-right: 5%;
+  padding-top: 8%;
+  width: 20%;
+  border-radius: 5px;
+}
+
+#map{ 
+
+  bottom: 0px;
+  width: 100vw;
+  height: 50%;
+  border: none;
+  }
+
+}
+
+@media screen and (min-width: 768px){
+
+.contactinformatie{
+  float: left;
+  width: 45%;
+  margin: 4%;
+  margin-left: 7%;
+  margin-bottom: 0%;
+}
+
+#contactfoto{
+  float: right;
+  width: 20%;
+  border-radius: 5px
+}
+
+#map{ 
+  position: absolute;
+  width: 35%;
+  height: 45vh;
+  border: none;
+  margin: 4%;
+  border-radius: 5px;
  }
+
+}
