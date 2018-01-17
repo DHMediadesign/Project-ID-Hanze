@@ -280,6 +280,16 @@ p#rating-text{
   opacity: 0.4;
 }
 
+/* Toelatingseisen */
+
+.toelaatbaar{
+  background-color: green;
+}
+
+.uitzondering{
+  background-color: yellow;
+}
+
 /* Footer */
 
 #footer-wrap{
