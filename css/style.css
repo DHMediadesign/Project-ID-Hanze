@@ -75,9 +75,9 @@ a:hover {
   color: white;
 }
 
-.active {
-  background-color: #4CAF50;
-  color: white;
+li.active a {
+  text-decoration: underline #EE7F00;
+  -webkit-text-decoration: underline #EE7F00;
 }
 
 .topnav .icon {
@@ -285,7 +285,7 @@ p#rating-text{
 #footer-wrap{
   bottom: 0;
   position: absolute;
-  width: 100%;
+  width: 100vw;
   background-color: #808080;
 }
 
