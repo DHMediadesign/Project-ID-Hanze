@@ -8,8 +8,9 @@ html{
 body {
   margin: 0 auto;
   float: left;
-  background-image: url("../img/lander.jpg");
+  background-image: url("../img/lander.jpg"); 
 }
+
 
 .button {
 	text-decoration: none;
@@ -53,54 +54,25 @@ body {
     to   { opacity: 1; }
 }
 
-@media only screen and (min-width: 600px) {
-    /* For any screen wider than 600px (mostly tablets) */
-    .f-col-m-1 {width: 8.33%;}    /* (100/12)*1 */
-    .f-col-m-2 {width: 16.66%;}   /* (100/12)*2 */
-    .f-col-m-3 {width: 25%;}      /* (100/12)*3 */
-    .f-col-m-4 {width: 33.33%;}   /* (100/12)*4 */
-    .f-col-m-5 {width: 41.66%;}   /* (100/12)*5 */
-    .f-col-m-6 {width: 49%;}      /* (100/12)*6 */
-    .f-col-m-7 {width: 58.33%;}   /* (100/12)*7 */
-    .f-col-m-8 {width: 66.66%;}   /* (100/12)*8 */
-    .f-col-m-9 {width: 75%;}      /* (100/12)*9 */
-    .f-col-m-10 {width: 83.33%;}  /* (100/12)*10 */
-    .f-col-m-11 {width: 91.66%;}  /* (100/12)*11 */
-    .f-col-m-12 {width: 92%;     padding: 4% 4% 5% 4%;}    /* (100/12)*12 */
-}
 
-@media only screen and (min-width: 768px) {
-    /* For any screen wider than 768px (eg. laptops, desktops) */
-    .f-col-1 {width: 8.33%;}      /* (100/12)*1 */
-    .f-col-2 {width: 16.66%;}     /* (100/12)*2 */
-    .f-col-3 {width: 25%;}        /* (100/12)*3 */
-    .f-col-4 {width: 32.33%;}     /* (100/12)*4 */
-    .f-col-5 {width: 41.66%;}     /* (100/12)*5 */
-    .f-col-6 {width: 50%;}        /* (100/12)*6 */
-    .f-col-7 {width: 58.33%;}     /* (100/12)*7 */
-    .f-col-8 {width: 66.66%;}     /* (100/12)*8 */
-    .f-col-9 {width: 75%;}        /* (100/12)*9 */
-    .f-col-10 {width: 83.33%;}    /* (100/12)*10 */
-    .f-col-11 {width: 91.66%;}    /* (100/12)*11 */
-    .f-col-12 {width: 100%;}      /* (100/12)*12 */
-}
-
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 667px) {
   .button {
+    width: 80%;
+       margin-left: 0px;
     margin-top: 80%;
   }
-  .body {
-    background-image: url("../landermobiel.jpg");
+  body {
+    background-image: url("../img/landermobiel.jpg");
   }
 }
 
 @media screen and (max-width: 768px) {
   .button {
-      margin-top: 50%;
+    width: 80;
+    margin-top: 50%;
   }
-  .body {
-    background-image: url("../landermobiel.jpg");
+  body {
+    background-image: url("../img/landermobiel.jpg");
   }
 }
 
