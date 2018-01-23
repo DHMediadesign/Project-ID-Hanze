@@ -8,43 +8,21 @@ html{
 body {
   margin: 0 auto;
   float: left;
+  background-image: url("../img/lander.jpg");
 }
 
-img.lander {
-	width: 100%;
-	height: 100vh;
-	position: relative;
-}
-
-.text {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-}
-
-a {
+.button {
 	text-decoration: none;
-}
-
-p {
-	border-style: none none solid none;
-	border-color: white;
-	border-width: 1px;
-	color: #FFF;
-	text-align: center;
-	position: absolute;
-	z-index: 9999;
-	font-size: 100px;
-	transition-duration: 0.9s;
-}
-
-/**Tekst welkom in het midden krijgen**/
-
-p:hover {
-	border-width: 2px;
-	font-size: 100px;
-	letter-spacing: 2px;
-	text-align: center;
+  color: white;
+  background-color: #ee7f00;
+  border-radius: 50px;
+  border-color: #ee7f00;
+  position: absolute;
+  z-index: 9999;
+  font-size: 30px;
+  margin-top: 30%;
+  margin-left: 40%;
+  cursor: pointer;
 }
 
 .lander {
@@ -72,4 +50,23 @@ p:hover {
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+
+@media screen and (max-width: 667px) {
+  .button {
+    margin-top: 80%;
+  }
+  .body {
+    background-image: url("../landermobile.jpg");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+      margin-top: 50%;
+  }
+  .body {
+    background-image: url("../landermobile.jpg");
+  }
 }
