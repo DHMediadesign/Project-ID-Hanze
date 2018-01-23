@@ -197,6 +197,7 @@ p#rating-text{
 #rating-wrap{
   background: #eeeeee;
   text-align: center;
+  clear: both;
   padding: 2.5% 5% 2.5% 5%;
 }
 
@@ -286,29 +287,33 @@ p#rating-text{
   width: 30%;
   text-align: center;
   margin: 2%;
+  clear: both;
 }
 
 .vooropleiding{
-  clear: both;
+  width: 20%;
+  float: left;
   margin: 2%;
 }
 
 .toelaatbaar{
-  float: left;
+/*  float: left;*/
   background-color: green;
   width: 50px;
   height: 50px;
   border-radius: 75px;
   margin: 15px;
+  line-height: 50px;
 }
 
 .uitzondering{
-  float: left;
+/*  float: left;*/
   background-color: yellow;
   width: 50px;
   height: 50px;
   border-radius: 75px;
   margin: 15px;
+  line-height: 50px;
 }
 
 /* Footer */
