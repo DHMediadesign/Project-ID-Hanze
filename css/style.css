@@ -338,7 +338,7 @@ p#rating-text{
 /* Footer */
 
 #footer-wrap{
-  width: 100%;
+  width: 60%;
   position: relative;
   display: table;
   bottom: 0;
@@ -370,7 +370,7 @@ p#rating-text{
 
 .fa-copyright{
   color: #fca13a;
-  margin-top: 10%;
+  margin-top: 30%;
   margin-bottom: 5%;
 }
 
