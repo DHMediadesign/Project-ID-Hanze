@@ -1,105 +1,159 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
 
-html{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-   background-image: url(../img/loginbg.jpg);
-  background-repeat: no-repeat;
-  background-size: 120%; 
-
-}
-
-body {
-  height: auto;
-}
-
 *{
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.logo {
-  margin-top: 5%;
-  width: 8%;
-  float: left;
-  margin-left: 3%;
+@media screen and (max-width: 667px){
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-image: url(../img/loginbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 400%;
+    height: 100vh;
+  }
+
+  .logo {
+    margin-top: 5%;
+    width: 8%;
+    float: left;
+    margin-left: 3%;
+  }
+
+  .logohanze {
+    width: 100vw;
+  }
+
+  h1 {
+    color: #fff;
+    
+    float: left;
+    margin-top: 2.5%;
+    margin-left: 2%;
+  }
+
+  #login-form {
+    position: absolute;
+    margin: 22vw;
+    margin-top: 75%;
+  }
+
+
+  .login-input{
+    position: relative;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    background: #E57B03;
+    font-size: 24px;
+    font-weight: 100;
+    color: #FFFFFF;
+    padding: 3% 5% 3% 2%;
+    outline: none !important;
+    margin-top: 6%;
+    float: right;
+    margin-right: 10%;
+  }
+
+  .login-input::placeholder{
+    color: #F5F5F5;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #FCA038;
+  }
+
+  input[type=submit] {
+    position: relative;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    background: #E57B03;
+    font-size: 24px;
+    font-weight: 100;
+    color: #FFFFFF;
+    padding: 3% 5% 3% 2%;
+    margin-top: 6%;
+    float: right;
+    margin-right: 10%; 
+    box-shadow: #fff;
+  }
+
 }
 
-.logohanze {
-  width: 100vw;
+@media screen and (min-width: 768px){
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-image: url(../img/loginbg.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .logo {
+    margin-top: 5%;
+    width: 8%;
+    float: left;
+    margin-left: 3%;
+  }
+
+  .logohanze {
+    width: 100vw;
+  }
+
+  h1 {
+    color: #fff;
+    
+    float: left;
+    margin-top: 7%;
+    margin-left: 2%;
+  }
+
+  #login-form {
+    position: fixed;
+    top: 50%;
+    left: 45%
+  }
+
+
+  .login-input{
+    position: relative;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    background: #E57B03;
+    font-size: 24px;
+    font-weight: 100;
+    color: #FFFFFF;
+    padding: 3% 5% 3% 2%;
+    outline: none !important;
+    margin-top: 6%;
+    float: right;
+    margin-right: 10%;
+  }
+
+  .login-input::placeholder{
+    color: #F5F5F5;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #FCA038;
+  }
+
+  input[type=submit] {
+    position: relative;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    background: #E57B03;
+    font-size: 24px;
+    font-weight: 100;
+    color: #FFFFFF;
+    padding: 3% 5% 3% 2%;
+    margin-top: 6%;
+    float: right;
+    margin-right: 10%; 
+    box-shadow: #fff;
+  }
+
 }
-
-h1 {
-  color: #fff;
-  
-  float: left;
-  margin-top: 6%;
-  margin-left: 2%;
-}
-
-#login-form {
-  position: fixed;
-  top: 50%;
-  left: 45%
-}
-
-
-.login-input{
-  position: relative;
-  text-decoration: none;
-  border: none;
-  border-bottom: 1px solid #FFF;
-  background: #E57B03;
-  font-size: 24px;
-  font-weight: 100;
-  color: #FFFFFF;
-  padding: 3% 5% 3% 2%;
-  outline: none !important;
-  margin-top: 6%;
-  float: right;
-  margin-right: 10%;
-}
-
-.login-input::placeholder{
-  color: #F5F5F5;
-  padding-bottom: 15px;
-  border-bottom: 1px solid #FCA038;
-}
-
-input[type=submit] {
-  position: relative;
-  text-decoration: none;
-  border: none;
-  border-bottom: 1px solid #FFF;
-  background: #E57B03;
-  font-size: 24px;
-  font-weight: 100;
-  color: #FFFFFF;
-  padding: 3% 5% 3% 2%;
-  margin-top: 6%;
-  float: right;
-  margin-right: 10%; 
-  box-shadow: #fff;
-}
-
-/*.login-input::before{
-  -webkit-transform: skewY(-4deg);
-  transform: skewY(-4deg);
-  padding: 2% 2% 2% 2%;
-  background: #E57B03;
-  outline: none !important;
-  top: -17px;
-  content: "";
-}*/
-
-/*.login-input::after{
-  -webkit-transform: skewY(4deg);
-  transform: skewY(4deg);
-  padding: 2% 2% 2% 2%;
-  background: #E57B03;
-  outline: none !important;
-  bottom: -17px;
-  content: "";
-}*/
-
