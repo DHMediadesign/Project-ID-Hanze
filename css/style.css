@@ -313,7 +313,7 @@ p#rating-text{
 
 .toelaatbaar{
 /*  float: left;*/
-  background-color: green;
+  background-color: #00FF00;
   color: white;
   font-weight: 700;
   width: 50px;
