@@ -39,9 +39,15 @@ h2{
   margin-bottom: 2.5%;
 }
 
+.header {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 .headerimage {
   background-image: url("../img/fotoheader.jpg");
   background-repeat: none;
+  background-size: cover;
   position: relative;
   overflow: auto;
   height: 100%;
@@ -81,8 +87,8 @@ h2{
 }s
 
 li.active a {
-  text-decoration: underline #EE7F00;
-  -webkit-text-decoration: underline #EE7F00;
+  text-decoration: underline #EE7F00 !important;
+  -webkit-text-decoration: underline #EE7F00 !important;
 }
 
 .topnav .icon {
@@ -184,7 +190,6 @@ li a:hover {
 }
 
 .headerimage{
-
   height: 50vh;
   margin-top: -100px;
 }
@@ -204,6 +209,8 @@ p#rating-text{
   text-align: center;
   clear: both;
   padding: 2.5% 5% 2.5% 5%;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 /* Wrap voor de sterren zelf, zonder text */
@@ -260,7 +267,8 @@ p#rating-text{
 /* major buttons */
 
 #majorbuttons{
-  width: 100%;
+  margin-left: 20%;
+  margin-right: 20%;
   padding-right: 0px;
 }
 
@@ -293,6 +301,8 @@ p#rating-text{
   text-align: center;
   margin: 2%;
   clear: both;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 .vooropleiding{
@@ -328,11 +338,14 @@ p#rating-text{
 /* Footer */
 
 #footer-wrap{
+  width: 100%;
   position: relative;
   display: table;
   bottom: 0;
   min-height: 350px;
   background: #999999;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 #footer-inner{
@@ -369,7 +382,8 @@ h3{
 
 .leukfeature {
   text-align: center;
-  margin-top: 22%;
+  margin-top: 16%;
+  margin-bottom: 2%;
 }
 
 [class*="f-col-"] {
