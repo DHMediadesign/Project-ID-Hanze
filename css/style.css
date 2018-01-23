@@ -34,6 +34,11 @@ a:hover {
   -webkit-text-decoration: underline #EE7F00;
 }
 
+h2{
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
 .headerimage {
   background-image: url("../img/fotoheader.jpg");
   background-repeat: none;
