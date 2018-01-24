@@ -210,7 +210,10 @@ li a:hover {
     margin-bottom: 5%;
   }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 164010bec7a3e09bff9c3ebf1fecd0084a5acfad
   #contactfoto{
     float: right;
     padding-right: 5%;
@@ -225,6 +228,7 @@ li a:hover {
     height: 50%;
     border: none;
   }
+<<<<<<< HEAD
 
   #search-box-nav{
     display: none;
@@ -234,12 +238,26 @@ li a:hover {
     width: 100vw;
     margin-bottom: 5%;
   }
+=======
+
+#search-box-nav{
+  display: none;
+}
+
+.contactinformatie{
+  width: 100vw;
+  margin-bottom: 5%;
+>>>>>>> 164010bec7a3e09bff9c3ebf1fecd0084a5acfad
 }
 
 @media screen and (min-width: 0px) and (max-width: 1024px){
   #search-nav, #search-box-nav{
     display: none;
     visibility: hidden;
+  }
+
+   .headerimage {
+  background-image: url("../img/headermobiel.jpg");
   }
 }
 
@@ -262,6 +280,10 @@ li a:hover {
     border-radius: 5px;
   }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 164010bec7a3e09bff9c3ebf1fecd0084a5acfad
   #map{
     position: absolute;
     width: 35%;
@@ -475,6 +497,10 @@ h3{
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 164010bec7a3e09bff9c3ebf1fecd0084a5acfad
 /*social media icons*/
 
 
