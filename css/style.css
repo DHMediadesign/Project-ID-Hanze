@@ -464,6 +464,9 @@ h3{
   .majors{
     width: 100%
   }
+  .headerimage {
+  background-image: url("../img/headermobiel.jpg");
+}
 }
 
 .foto {

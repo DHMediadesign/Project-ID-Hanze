@@ -79,6 +79,7 @@ li.active a{
     float: right;
     display: block;
   }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -191,7 +192,6 @@ li a:hover {
 }
 
 .headerimage{
-
   height: 50vh;
   margin-top: -100px;
 }
@@ -225,6 +225,9 @@ li a:hover {
   border: none;
   }
 
+.headerimage {
+  background-image: url("../img/fotoheader.jpg") !important;
+}
 }
 
 @media screen and (min-width: 768px){
