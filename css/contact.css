@@ -360,6 +360,7 @@ li a:hover {
 /* Footer */
 
 #footer-wrap{
+  clear: both;
   position: relative;
   display: table;
   bottom: 0;

@@ -435,17 +435,6 @@ h3{
 }
 
 @media screen and (max-width: 768px) {
-  .topnav a {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .majors {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -457,6 +446,13 @@ h3{
     display: block;
     text-align: center;
   }
+
+  .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
   .topnav {
     margin-right: 0%;
     width: 100%;
@@ -464,14 +460,23 @@ h3{
   .majors{
     width: 100%
   }
+  
   .headerimage {
   background-image: url("../img/headermobiel.jpg");
-}
-}
+  }
+  }
 
-.foto {
-  margin-right:20%;
-  margin-left:20%;
-  height: auto;
-  width: 60%;
-}
+  .foto {
+    margin-right:20%;
+    margin-left:20%;
+    height: auto;
+    width: 60%;
+  }
+
+  #toelatingseisen{
+    width: 60%;
+  }
+
+  .vooropleiding{
+    width: 25%;
+  }
