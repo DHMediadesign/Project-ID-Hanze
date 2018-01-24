@@ -81,6 +81,7 @@ li.active a{
     float: right;
     display: block;
   }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -193,7 +194,6 @@ li a:hover {
 }
 
 .headerimage{
-
   height: 50vh;
   margin-top: -100px;
 }
@@ -210,6 +210,7 @@ li a:hover {
     margin-bottom: 5%;
   }
 
+<<<<<<< HEAD
   #contactfoto{
     float: right;
     padding-right: 5%;
@@ -224,6 +225,15 @@ li a:hover {
     height: 50%;
     border: none;
   }
+=======
+#search-box-nav{
+  display: none;
+}
+
+.contactinformatie{
+  width: 100vw;
+  margin-bottom: 5%;
+>>>>>>> 67de7a0f736b0d09b39351a9662f25b1c9d76552
 }
 
 @media screen and (min-width: 0px) and (max-width: 1024px){
@@ -252,6 +262,7 @@ li a:hover {
     border-radius: 5px
   }
 
+<<<<<<< HEAD
   #map{
     position: absolute;
     width: 35%;
@@ -260,6 +271,61 @@ li a:hover {
     margin: 4%;
     border-radius: 5px;
    }
+=======
+.headerimage {
+  background-image: url("../img/fotoheader.jpg") !important;
+  }
+
+}
+
+[class*="f-col-"] {
+    color: #ffffff;
+    background-color: #999999;
+    float: left;
+    padding: 4% 4% 5% 4%;
+}
+
+[class*="f-col-"] a{
+  color: #FFF;
+}
+
+/* For any screen that's not 600px or more wide */
+[class*="f-col-"] {
+    width: 92%;
+    display: table-cell;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For any screen wider than 600px (mostly tablets) */
+    .f-col-m-1 {width: 8.33%;}    /* (100/12)*1 */
+    .f-col-m-2 {width: 16.66%;}   /* (100/12)*2 */
+    .f-col-m-3 {width: 25%;}      /* (100/12)*3 */
+    .f-col-m-4 {width: 33.33%;}   /* (100/12)*4 */
+    .f-col-m-5 {width: 41.66%;}   /* (100/12)*5 */
+    .f-col-m-6 {width: 49%;}      /* (100/12)*6 */
+    .f-col-m-7 {width: 58.33%;}   /* (100/12)*7 */
+    .f-col-m-8 {width: 66.66%;}   /* (100/12)*8 */
+    .f-col-m-9 {width: 75%;}      /* (100/12)*9 */
+    .f-col-m-10 {width: 83.33%;}  /* (100/12)*10 */
+    .f-col-m-11 {width: 91.66%;}  /* (100/12)*11 */
+    .f-col-m-12 {width: 92%;     padding: 4% 4% 5% 4%;}    /* (100/12)*12 */
+}
+
+@media only screen and (min-width: 768px) {
+    /* For any screen wider than 768px (eg. laptops, desktops) */
+    .f-col-1 {width: 8.33%;}      /* (100/12)*1 */
+    .f-col-2 {width: 16.66%;}     /* (100/12)*2 */
+    .f-col-3 {width: 25%;}        /* (100/12)*3 */
+    .f-col-4 {width: 32.33%;}     /* (100/12)*4 */
+    .f-col-5 {width: 41.66%;}     /* (100/12)*5 */
+    .f-col-6 {width: 50%;}        /* (100/12)*6 */
+    .f-col-7 {width: 58.33%;}     /* (100/12)*7 */
+    .f-col-8 {width: 66.66%;}     /* (100/12)*8 */
+    .f-col-9 {width: 75%;}        /* (100/12)*9 */
+    .f-col-10 {width: 83.33%;}    /* (100/12)*10 */
+    .f-col-11 {width: 91.66%;}    /* (100/12)*11 */
+    .f-col-12 {width: 100%;}      /* (100/12)*12 */
+>>>>>>> 67de7a0f736b0d09b39351a9662f25b1c9d76552
 }
 
 #contact-wrapper{
@@ -411,6 +477,41 @@ h3{
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+<<<<<<< HEAD
+=======
+/*social media icons*/
+
+
+/* Footer */
+
+#footer-wrap{
+  clear: both;
+  position: relative;
+  display: table;
+  bottom: 0;
+  min-height: 350px;
+  background: #999999;
+}
+
+#footer-inner{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#footer-copyright{
+  color: white;
+}
+
+#footer-copyright a{
+  color: #FFFFFF;
+}
+
+
+#footer-copyright a:hover{
+  cursor: pointer;
+}
+>>>>>>> 67de7a0f736b0d09b39351a9662f25b1c9d76552
 
 .fa-copyright{
   color: #fca13a;
