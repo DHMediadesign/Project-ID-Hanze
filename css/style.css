@@ -258,6 +258,7 @@ p#rating-text{
 }
 
 .welkom {
+  clear: both;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
   margin-right:20%;
@@ -343,6 +344,25 @@ p#rating-text{
     height: auto;
     width: 60%;
   }
+
+/* Voorbeeld project */
+
+.studentenwerk{
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+}
+
+.studentenwerk-img{
+  margin-top: 2%;
+  border-radius: 5px;
+  width: 33%;
+}
+
+.studentenwerk-info{
+  float: right;
+  width: 50%;
+}
 
 /* Footer */
 
