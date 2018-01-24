@@ -335,6 +335,15 @@ p#rating-text{
   line-height: 50px;
 }
 
+/* FOTO OP MAJORS PAGINA */
+
+ .foto {
+    margin-right:20%;
+    margin-left:20%;
+    height: auto;
+    width: 60%;
+  }
+
 /* Footer */
 
 #footer-wrap{
@@ -460,17 +469,16 @@ h3{
   .majors{
     width: 100%
   }
-  
+
   .headerimage {
   background-image: url("../img/headermobiel.jpg");
   }
-  }
 
   .foto {
-    margin-right:20%;
-    margin-left:20%;
+    margin-left:0%;
+    margin-right: 0%;
     height: auto;
-    width: 60%;
+    width: 100%;
   }
 
   #toelatingseisen{
@@ -480,3 +488,10 @@ h3{
   .vooropleiding{
     width: 25%;
   }
+
+  #footer-wrap{
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+  }
+}
