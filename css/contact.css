@@ -210,7 +210,7 @@ li a:hover {
     margin-bottom: 5%;
   }
 
-<<<<<<< HEAD
+
   #contactfoto{
     float: right;
     padding-right: 5%;
@@ -225,15 +225,15 @@ li a:hover {
     height: 50%;
     border: none;
   }
-=======
-#search-box-nav{
-  display: none;
-}
 
-.contactinformatie{
-  width: 100vw;
-  margin-bottom: 5%;
->>>>>>> 67de7a0f736b0d09b39351a9662f25b1c9d76552
+  #search-box-nav{
+    display: none;
+  }
+
+  .contactinformatie{
+    width: 100vw;
+    margin-bottom: 5%;
+  }
 }
 
 @media screen and (min-width: 0px) and (max-width: 1024px){
@@ -259,10 +259,9 @@ li a:hover {
   #contactfoto{
     float: right;
     width: 20%;
-    border-radius: 5px
+    border-radius: 5px;
   }
 
-<<<<<<< HEAD
   #map{
     position: absolute;
     width: 35%;
@@ -271,7 +270,7 @@ li a:hover {
     margin: 4%;
     border-radius: 5px;
    }
-=======
+
 .headerimage {
   background-image: url("../img/fotoheader.jpg") !important;
   }
@@ -325,7 +324,6 @@ li a:hover {
     .f-col-10 {width: 83.33%;}    /* (100/12)*10 */
     .f-col-11 {width: 91.66%;}    /* (100/12)*11 */
     .f-col-12 {width: 100%;}      /* (100/12)*12 */
->>>>>>> 67de7a0f736b0d09b39351a9662f25b1c9d76552
 }
 
 #contact-wrapper{
@@ -477,8 +475,6 @@ h3{
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-<<<<<<< HEAD
-=======
 /*social media icons*/
 
 
@@ -511,7 +507,6 @@ h3{
 #footer-copyright a:hover{
   cursor: pointer;
 }
->>>>>>> 67de7a0f736b0d09b39351a9662f25b1c9d76552
 
 .fa-copyright{
   color: #fca13a;
