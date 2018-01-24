@@ -334,8 +334,6 @@ p#rating-text{
   line-height: 50px;
 }
 
-<<<<<<< HEAD
-=======
 /* FOTO OP MAJORS PAGINA */
 
  .foto {
@@ -408,7 +406,6 @@ h3{
   border-bottom: 1px solid #FFF;
 }
 
->>>>>>> 67de7a0f736b0d09b39351a9662f25b1c9d76552
 .leukfeature {
   text-align: center;
   margin-top: 16%;
@@ -464,7 +461,6 @@ h3{
     .f-col-12 {width: 100%;}      /* (100/12)*12 */
 }
 
-<<<<<<< HEAD
 .foto {
   margin-right:20%;
   margin-left:20%;
@@ -589,7 +585,8 @@ h3{
   .topnav a.icon {
     float: right;
     display: block;
-=======
+}
+
 @media screen and (max-width: 667px) {
 
   /* Voorbeeld project */
@@ -598,7 +595,6 @@ h3{
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
->>>>>>> 67de7a0f736b0d09b39351a9662f25b1c9d76552
   }
 
   .studentenwerk-img{
@@ -686,8 +682,6 @@ h3{
   margin-right: 5%;
   width: 90%;
 }
-<<<<<<< HEAD
-=======
 
 .studentenwerk-img{
   margin-top: 2%;
@@ -706,4 +700,3 @@ h3{
     width: 100%;
   }
 }
->>>>>>> 67de7a0f736b0d09b39351a9662f25b1c9d76552
