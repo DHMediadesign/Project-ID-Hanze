@@ -463,6 +463,28 @@ h3{
     .f-col-12 {width: 100%;}      /* (100/12)*12 */
 }
 
+@media screen and (max-width: 667px) {
+
+  /* Voorbeeld project */
+
+  .studentenwerk{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+
+  .studentenwerk-img{
+    margin-top: 2%;
+    border-radius: 5px;
+    width: 90%;
+  }
+
+  .studentenwerk-info{
+  float: none;
+  width: 90%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -499,10 +521,10 @@ h3{
   }
 
   .foto {
-    margin-left:0%;
-    margin-right: 0%;
+    margin-left:5%;
+    margin-right: 5%;
     height: auto;
-    width: 100%;
+    width: 90%;
   }
 
   #toelatingseisen{
@@ -512,6 +534,31 @@ h3{
   .vooropleiding{
     width: 25%;
   }
+
+  .welkom{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%
+  }
+
+  /* Voorbeeld project */
+
+.studentenwerk{
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.studentenwerk-img{
+  margin-top: 2%;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.studentenwerk-info{
+  float: right;
+  width: 100%;
+}
 
   #footer-wrap{
     margin-left: 0%;
