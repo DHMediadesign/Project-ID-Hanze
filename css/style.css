@@ -29,7 +29,7 @@ a {
   color: black;
 }
 
-a:hover {
+a:hover:not([fa*]:hover) {
   text-decoration: underline #EE7F00;
   -webkit-text-decoration: underline #EE7F00;
 }
@@ -140,7 +140,6 @@ li a:hover {
   right: 5%;
   text-decoration: none;
   border: none;
-  border-bottom: 1px solid #FFF;
   background: #E57B03;
   font-size: 15px;
   font-weight: 100;
@@ -297,7 +296,7 @@ p#rating-text{
 /* Toelatingseisen */
 
 #toelatingseisen{
-  width: 30%;
+  width: 60%;
   text-align: center;
   margin: 2%;
   clear: both;
@@ -306,7 +305,6 @@ p#rating-text{
 }
 
 .vooropleiding{
-  width: 20%;
   float: left;
   margin: 2%;
 }
@@ -333,50 +331,6 @@ p#rating-text{
   border-radius: 75px;
   margin: 15px;
   line-height: 50px;
-}
-
-/* Footer */
-
-#footer-wrap{
-  width: 60%;
-  position: relative;
-  display: table;
-  bottom: 0;
-  min-height: 350px;
-  background: #999999;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-#footer-inner{
-  width: 100%;
-  margin-top: 2.5%;
-}
-
-#footer-copyright{
-  color: white;
-  font-size: 12px;
-}
-
-#footer-copyright a{
-  color: #FFFFFF;
-}
-
-
-#footer-copyright a:hover{
-  cursor: pointer;
-}
-
-.fa-copyright{
-  color: #fca13a;
-  margin-top: 30%;
-  margin-bottom: 5%;
-}
-
-h3{
-  font-size: 17px;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #FFF;
 }
 
 .leukfeature {
@@ -434,6 +388,125 @@ h3{
     .f-col-12 {width: 100%;}      /* (100/12)*12 */
 }
 
+.foto {
+  margin-right:20%;
+  margin-left:20%;
+  height: auto;
+  width: 60%;
+}
+
+/* Footer */
+.socialmedia{
+  clear: both;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+
+#footer-wrap{
+  width: 60%;
+  position: relative;
+  display: table;
+  bottom: 0;
+  min-height: 350px;
+  background: #999999;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#footer-inner{
+  width: 100%;
+  margin-top: 2.5%;
+}
+
+#footer-copyright{
+  clear: both;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 5%;
+}
+
+#footer-copyright a{
+  color: #FFFFFF;
+}
+
+
+#footer-copyright a:hover{
+  cursor: pointer;
+}
+
+h3{
+  font-size: 17px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #FFF;
+}
+
+/* Social media icons */
+.fa{
+  padding: 15px;
+  min-width: 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-copyright{
+  color: #fca13a;
+  margin-top: 30%;
+  margin-bottom: 5%;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1023px){
+  #search-nav, #search-box-nav{
+    display: none;
+    visibility: hidden;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .topnav a {display: none;}
   .topnav a.icon {
@@ -443,9 +516,19 @@ h3{
   .majors {
     width: 100%;
   }
-}
 
-@media screen and (max-width: 768px) {
+  /* Style voor star rating met text */
+  #rating-wrap{
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  #footer-wrap{
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -464,11 +547,4 @@ h3{
   .majors{
     width: 100%
   }
-}
-
-.foto {
-  margin-right:20%;
-  margin-left:20%;
-  height: auto;
-  width: 60%;
 }

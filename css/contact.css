@@ -23,7 +23,8 @@ a {
   color: black;
 }
 
-a:hover {
+
+a:hover:not([fa*]:hover) {
   text-decoration: underline #EE7F00;
   -webkit-text-decoration: underline #EE7F00;
 }
@@ -31,6 +32,7 @@ a:hover {
 .headerimage {
   background-image: url("../img/fotoheader.jpg");
   background-repeat: none !important;
+  background-size: cover;
   position: relative;
   overflow: auto;
   width: 100vw;
@@ -203,62 +205,170 @@ li a:hover {
 /* EINDE HEADER CSS */
 
 @media screen and (max-width: 768px){
-
-.contactinformatie{
-  width: 100vw;
-  margin-bottom: 5%;
-}
-
-#contactfoto{
-  float: right;
-  padding-right: 5%;
-  padding-top: 8%;
-  width: 20%;
-  border-radius: 5px;
-}
-
-#map{
-
-  bottom: 0px;
-  width: 100vw;
-  height: 50%;
-  border: none;
+  .contactinformatie{
+    width: 100vw;
+    margin-bottom: 5%;
   }
 
+  #contactfoto{
+    float: right;
+    padding-right: 5%;
+    padding-top: 8%;
+    width: 20%;
+    border-radius: 5px;
+  }
+
+  #map{
+    bottom: 0px;
+    width: 100vw;
+    height: 50%;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px){
+  #search-nav, #search-box-nav{
+    display: none;
+    visibility: hidden;
+  }
 }
 
 @media screen and (min-width: 768px){
+  .contactinformatie{
+    float: left;
+    width: 45%;
+    margin: 4%;
+    margin-left: 7%;
+    margin-bottom: 0%;
+  }
 
-.contactinformatie{
-  float: left;
-  width: 45%;
-  margin: 4%;
-  margin-left: 7%;
-  margin-bottom: 0%;
+  .contactinformatie:not(:first-of-type){
+    margin-bottom: 5%;
+  }
+
+  #contactfoto{
+    float: right;
+    width: 20%;
+    border-radius: 5px
+  }
+
+  #map{
+    position: absolute;
+    width: 35%;
+    height: 45vh;
+    border: none;
+    margin: 4%;
+    border-radius: 5px;
+   }
 }
 
-#contactfoto{
-  float: right;
-  width: 20%;
-  border-radius: 5px
+#contact-wrapper{
+  width: 100%;
+  clear: both;
+  margin-bottom: 5%;
 }
 
-#map{
-  position: absolute;
-  width: 35%;
-  height: 45vh;
-  border: none;
-  margin: 4%;
-  border-radius: 5px;
- }
-
+/* Footer */
+[class*="f-col-"] {
+    color: #ffffff;
+    background-color: #999999;
+    float: left;
+    padding: 4% 4% 5% 4%;
 }
 
-/*social media icons*/
-.fa {
-  padding: 20px;
+[class*="f-col-"] a{
+  color: #FFF;
+}
+
+/* For any screen that's not 600px or more wide */
+[class*="f-col-"] {
+    width: 92%;
+    display: table-cell;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For any screen wider than 600px (mostly tablets) */
+    .f-col-m-1 {width: 8.33%;}    /* (100/12)*1 */
+    .f-col-m-2 {width: 16.66%;}   /* (100/12)*2 */
+    .f-col-m-3 {width: 25%;}      /* (100/12)*3 */
+    .f-col-m-4 {width: 33.33%;}   /* (100/12)*4 */
+    .f-col-m-5 {width: 41.66%;}   /* (100/12)*5 */
+    .f-col-m-6 {width: 49%;}      /* (100/12)*6 */
+    .f-col-m-7 {width: 58.33%;}   /* (100/12)*7 */
+    .f-col-m-8 {width: 66.66%;}   /* (100/12)*8 */
+    .f-col-m-9 {width: 75%;}      /* (100/12)*9 */
+    .f-col-m-10 {width: 83.33%;}  /* (100/12)*10 */
+    .f-col-m-11 {width: 91.66%;}  /* (100/12)*11 */
+    .f-col-m-12 {width: 92%;     padding: 4% 4% 5% 4%;}    /* (100/12)*12 */
+}
+
+@media only screen and (min-width: 768px) {
+    /* For any screen wider than 768px (eg. laptops, desktops) */
+    .f-col-1 {width: 8.33%;}      /* (100/12)*1 */
+    .f-col-2 {width: 16.66%;}     /* (100/12)*2 */
+    .f-col-3 {width: 25%;}        /* (100/12)*3 */
+    .f-col-4 {width: 32.33%;}     /* (100/12)*4 */
+    .f-col-5 {width: 41.66%;}     /* (100/12)*5 */
+    .f-col-6 {width: 50%;}        /* (100/12)*6 */
+    .f-col-7 {width: 58.33%;}     /* (100/12)*7 */
+    .f-col-8 {width: 66.66%;}     /* (100/12)*8 */
+    .f-col-9 {width: 75%;}        /* (100/12)*9 */
+    .f-col-10 {width: 83.33%;}    /* (100/12)*10 */
+    .f-col-11 {width: 91.66%;}    /* (100/12)*11 */
+    .f-col-12 {width: 100%;}      /* (100/12)*12 */
+}
+
+.socialmedia{
+  clear: both;
+  text-align: center;
+  margin-bottom: 2.5%;
+}
+
+
+#footer-wrap{
+  width: 100%;
+  position: relative;
+  display: table;
+  bottom: 0;
+  min-height: 350px;
+  background: #999999;
+  /*margin-left: 20%;
+  margin-right: 20%;*/
+}
+
+#footer-inner{
+  width: 100%;
+  margin-top: 2.5%;
+}
+
+#footer-copyright{
+  clear: both;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 2.5%;
+}
+
+#footer-copyright a{
+  color: #FFFFFF;
+}
+
+
+#footer-copyright a:hover{
+  cursor: pointer;
+}
+
+h3{
+  font-size: 17px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #FFF;
+}
+
+/* Social media icons */
+.fa{
+  padding: 15px;
+  min-width: 15px;
   font-size: 30px;
-  width: 30px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -301,40 +411,13 @@ li a:hover {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-/*social media icons*/
-
-
-/* Footer */
-
-#footer-wrap{
-  position: relative;
-  display: table;
-  bottom: 0;
-  min-height: 350px;
-  background: #999999;
-}
-
-#footer-inner{
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-#footer-copyright{
-  color: white;
-}
-
-#footer-copyright a{
-  color: #FFFFFF;
-}
-
-
-#footer-copyright a:hover{
-  cursor: pointer;
-}
 
 .fa-copyright{
   color: #fca13a;
-  margin-top: 10%;
+  margin-top: 30%;
   margin-bottom: 5%;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
 }
