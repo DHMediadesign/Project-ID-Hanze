@@ -466,6 +466,10 @@ h3{
     margin-right: 0%;
     width: 100%;
   }
+
+  #search-box-nav{
+    display: none;
+  }
   .majors{
     width: 100%
   }
