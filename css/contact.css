@@ -153,13 +153,11 @@ li a:hover {
   color: #FFFFFF;
   padding: 3% 5% 3% 2%;
   outline: none !important;
-<<<<<<< HEAD
   /*margin-top: 6%;
   float: right;
   margin-right: 10%;*/
-=======
   display: block;
->>>>>>> cbcb3edf464c98f4eb979546dcf9659b18a4aa05
+
 }
 
 #search-box-nav::placeholder, #search-box-nav::-webkit-input-placeholder{
