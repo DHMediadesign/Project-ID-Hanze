@@ -154,6 +154,7 @@ li a:hover {
   color: #FFFFFF;
   padding: 3% 5% 3% 2%;
   outline: none !important;
+  display: block;
 }
 
 #search-box-nav::placeholder, #search-box-nav::-webkit-input-placeholder{
@@ -206,8 +207,9 @@ li a:hover {
 
 @media screen and (max-width: 768px){
   .contactinformatie{
-    width: 100vw;
+    width: 90%;
     margin-bottom: 5%;
+    margin-left: 5%
   }
 
   #contactfoto{
@@ -230,10 +232,6 @@ li a:hover {
     display: none;
   }
 
-  .contactinformatie{
-    width: 100vw;
-    margin-bottom: 5%;
-  }
 }
 
 #search-box-nav{
